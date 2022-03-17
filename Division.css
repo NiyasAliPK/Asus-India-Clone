@@ -1,0 +1,311 @@
+
+.Main{
+    width: 100%;
+    height: 1100px;
+    background: whit;
+    margin: 0%;
+}
+body{
+    margin: 0;
+}
+.Top{
+    width: 100%;
+    height: 26px;
+    background-color: white;
+    padding-left: 337px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+}
+#gaming{
+    padding-top: 20px;
+    padding-left: 1027px;
+    font-size: small;
+    font-weight: lighter;
+    opacity: 80%;
+    cursor: default;
+}
+#gaming:hover{
+    opacity: 100%;
+}
+.Navigation{
+    width: 100%;
+    height: 28px;
+    background-color: white;
+    padding-left: 337px;
+    display: flex;
+    align-items: center;
+    gap: 1.42rem;
+    font-family: sans-serif;
+    font-size: small;
+    position: sticky;
+    top: 0px;
+}
+.NavFonts{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.2s;
+    cursor: default;
+}
+.NavFonts:hover{
+    transform: scale(1.1);
+}
+.Icons{
+    opacity: 70%;
+    cursor: pointer;
+}
+.Icons:hover{
+    opacity: 100%;
+}
+.Middle{
+    width: 100%;
+    height: 693px;
+    cursor: pointer;
+    
+}
+.Homepicture{
+    background-image: url('./ezgif.com-gif-maker.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+.Middle2{
+    margin-top: 10px;
+    width: 100%;
+    height: 693px;
+    background-image: url('./Home\ second.jpg');
+    cursor: pointer;
+}
+.Square1{
+    background-image: url('./ZenbookFlip.jpg');
+    background-position: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 935px;
+    height: 580px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.Square2{
+    background-image: url('./Vivobook.jpg');
+    background-position: center;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 935px;
+    height: 580px;
+    background-color: black;
+    cursor: pointer;
+}
+.Square3{
+    background-image: url('./RogStrix.jpg');
+    background-position: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 935px;
+    height: 580px;
+    background-color: black;
+    cursor: pointer;
+}
+.Square4{
+    background-image: url('./TUF.jpg');
+    background-position: center;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 935px;
+    height: 580px;
+    background-color: black;
+    cursor: pointer;
+}
+.Textonpic{
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1cm;
+}
+.Learn{
+margin-left: 430px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+transition: 0.2s;
+}
+.Learn:hover{
+    transform: scaleY(1.2);
+}
+.Slide1{
+    float: left;
+    width: 406px;
+    height: 314px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    margin-left: 334px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.Slide2{
+    float: left;
+    width: 406px;
+    height: 314px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    margin-left: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.Slide3{
+    float: left;
+    width: 406px;
+    height: 314px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    margin-left: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#Events{
+    margin-top: 75px;
+    font-size: 1.3cm;
+    color: rgb(0, 0, 0) ;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+    margin-left: 700px;
+}
+#SeeAll{
+    margin-left: 916px;
+    font-size: 0.5cm;
+    color: rgb(0, 0, 0);
+    cursor: default;
+}
+.Slide1:hover{
+    transform: scale(1.05);
+}
+.Slide2:hover{
+    transform: scale(1.05);
+}
+.Slide3:hover{
+    transform: scale(1.05);
+}
+#Bottomtext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.ArrowButton{
+    float: left;
+    margin-left: 15px;
+    margin-top: 165px;
+    border-radius: 3px;
+    border-color: #f5f5f5;
+    width: 40px;
+    height: 53px;
+    
+}
+#arrowsymb{
+    font-size: larger;
+    color: black;
+}
+.Footer{
+    margin-top: 86px;
+    float: left;
+    width: 100%;   
+    height: 585px;
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI',sans-serif;
+}
+.Container{
+    margin-left: 275px;
+    background-color: #f5f5f5;
+    width: 1295px;
+    height: 550px;
+}
+ul{
+    list-style: none;
+}
+.FooterCols{
+    float: left;
+    width: 175px;
+    height: 500px;
+    background-color: #f5f5f5;
+}
+#FooterElements{
+    font-weight: lighter;
+    padding: 8px;
+    font-size: small;
+    cursor: pointer;
+}
+.FooterCols2{
+    float: left;
+    width: 250px;
+    height: 500px;
+    background-color: #f5f5f5;
+}
+.FooterCols3{
+    float: left;
+    width: 239px;
+    height: 500px;
+    background-color: #f5f5f5;
+}
+.FooterCols4{
+    float: left;
+    width: 205px;
+    height: 550px;
+    background-color: #f5f5f5;
+}
+.FooterCols5{
+    float: left;
+    width: 198px;
+    height: 550px;
+    background-color: #f5f5f5;
+}
+.FooterCols6{
+    float: left;
+    width: 228px;
+    height: 98px;
+    background-color: #f5f5f5;
+  
+}
+.Community{
+    width: 228px;
+    height: 22px;
+    background-color: #f5f5f5;
+    align-items: center;
+    padding-top: 15.5px;
+}
+.Social{
+    padding-top: 20px;
+    width: 39px;
+    height: 39px;
+    padding-left: 3px;
+    cursor: pointer;
+  
+}
+.Social2{
+    padding-top: 10px;
+    width: 39px;
+    height: 39px;
+    padding-left: 3px;
+    cursor: pointer;
+}
+#Fheads{
+    font-size: small;
+    cursor: default;
+}
+.Bsub{
+    margin-top: 1055px;
+    width: 100%;
+    height: 49px;
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+   
+}
+#Bnotes{
+    padding-left: 335px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', sans-serif;
+    cursor: default;
+}
